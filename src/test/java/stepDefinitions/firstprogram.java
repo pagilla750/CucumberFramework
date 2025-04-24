@@ -49,6 +49,7 @@ public class firstprogram {
 	public void user_login_into_application_with_username_and_password(String username, String password) {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println("username is:"+username+" and password is:"+password);
+	    System.out.println("Test Git Push");
 	}
 
 }
