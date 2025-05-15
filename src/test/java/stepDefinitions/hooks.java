@@ -49,6 +49,7 @@ TestContextSetup tectcontextsetup;
 			File sourcePath = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			byte[] filecontent = FileUtils.readFileToByteArray(sourcePath);
 			scenario.attach(filecontent, "image/png","image");
+			//test pull request
 		}
 		
 	}
