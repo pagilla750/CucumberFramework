@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-failed">Surefire suite</span>
+              <span class="suite-name border-passed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search Experience for Prodcut Search in both home and offers page&quot;, &quot;Search the Order for Products&quot;)">runScenario("Search Experience for Prodcut Search in both home and offers page", "Search the Order for Products")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +103,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search Experience for Prodcut Search in both home and offers page&quot;, &quot;Search the Order for Products&quot;)">runScenario("Search Experience for Prodcut Search in both home and offers page", "Search the Order for Products")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User Page deafult login&quot;, &quot;Applciation login&quot;)">runScenario("User Page deafult login", "Applciation login")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -132,29 +118,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">cucumberOptions.TestNGRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Search Experience for Prodcut Search in both home and offers page&quot;, &quot;Search the Order for Products&quot;)">
-                  </a> <!-- runScenario("Search Experience for Prodcut Search in both home and offers page", "Search the Order for Products") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Search Experience for Prodcut Search in both home and offers page","Search the Order for Products")</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Beetroot] but found [No data]
-	at stepDefinitions.OfferPageStepDefinition.validate_product_name_matches_with_offer_name(OfferPageStepDefinition.java:57)
-	at ✽.validate product name matches with offer name(file:///C:/Users/pagilla/eclipse-workspace/Cucumber/src/test/java/features/searchproduct.feature:8)
-... Removed 6 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -163,10 +126,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Search Experience for Prodcut Search in both home and offers page&quot;, &quot;Search the Order for Products&quot;)">
-                  </a> <!-- runScenario("Search Experience for Prodcut Search in both home and offers page", "Search the Order for Products") -->
+                  <a name="runScenario(&quot;User Page deafult login&quot;, &quot;Applciation login&quot;)">
+                  </a> <!-- runScenario("User Page deafult login", "Applciation login") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Search Experience for Prodcut Search in both home and offers page","Search the Order for Products")</span>
+                  <span class="parameters">("User Page deafult login","Applciation login")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -234,20 +197,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'cucumberOptions.TestNGRunner')
-data.setCell(0, 3, 10981);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'cucumberOptions.TestNGRunner')
-data.setCell(1, 3, 10831);
+data.setCell(0, 3, 7627);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -275,22 +234,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">cucumberOptions.TestNGRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@3fa76c61)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5327a06e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Search Experience for Prodcut Search in both home and offers page", "Search the Order for Products")</span>
-                <span class="method-start">638 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Search Experience for Prodcut Search in both home and offers page", "Search the Order for Products")</span>
-                <span class="method-start">638 ms</span>
+                <span class="method-name">runScenario("User Page deafult login", "Applciation login")</span>
+                <span class="method-start">810 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">11629 ms</span>
+                <span class="method-start">8472 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -29,7 +29,7 @@ public class TestBase {
 		{
 			if(browser.equalsIgnoreCase("chrome"))
 			{
-		//System.setProperty("webdriver.chrome.driver","\\Users\\pagilla\\AppData\\Local\\Programs\\Python\\Python310");
+				//System.setProperty("webdriver.chrome.driver","\\Users\\pagilla\\AppData\\Local\\Programs\\Python\\Python310");
 				driver = new ChromeDriver();
 			}
 			if(browser.equalsIgnoreCase("firefox"))
